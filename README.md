@@ -22,9 +22,9 @@ Monotonic binning.fit_transform(self, df: pd.DataFrame, target: str,
 Example of usage:
 
 `
-import pandas as pd
-import numpy as np
-import MonotonicBinning
+import pandas as pd\n
+import numpy as np\n
+import MonotonicBinning\n\n
 X = np.random.normal(0, 3, size=(10000, 3))
 W = np.random.rand(3)
 b = np.random.rand() * np.ones(10000)

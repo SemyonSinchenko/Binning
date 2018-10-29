@@ -19,6 +19,7 @@ The main method of class:
 
 
 Example of usage:
+
 `import pandas as pd
 import numpy as np
 import MonotonicBinning

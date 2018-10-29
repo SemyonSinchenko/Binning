@@ -19,8 +19,7 @@ The main method of class:
 
 
 Example of usage:
-`
-import pandas as pd
+`import pandas as pd
 import numpy as np
 import MonotonicBinning
 
@@ -39,5 +38,4 @@ df['target'] = labels
 binner = MonotonicBinning()
 df['var_0'] = binner.fit_transform(df, target='target', column='var_0')
 
-print(df.groupby('var_0').agg({'target': ['mean', 'count']}))
-`
+print(df.groupby('var_0').agg({'target': ['mean', 'count']}))`

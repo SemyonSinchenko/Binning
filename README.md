@@ -21,10 +21,9 @@ Monotonic binning.fit_transform(self, df: pd.DataFrame, target: str,
 
 Example of usage:
 
-`
-import pandas as pd`
-import numpy as np`
-import MonotonicBinning`
+`import pandas as pd`
+`import numpy as np`
+`import MonotonicBinning`
 
 
 `X = np.random.normal(0, 3, size=(10000, 3))`
